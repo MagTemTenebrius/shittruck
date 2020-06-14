@@ -1405,6 +1405,7 @@ public class ShitTruck extends EntityHorse {
         return (0.44999998807907104D + this.rand.nextDouble() * 0.3D + this.rand.nextDouble() * 0.3D + this.rand.nextDouble() * 0.3D) * 0.25D;
     }
 
+
     public static boolean func_146085_a(Item p_146085_0_) {
         return p_146085_0_ == Items.iron_horse_armor || p_146085_0_ == Items.golden_horse_armor || p_146085_0_ == Items.diamond_horse_armor;
     }
